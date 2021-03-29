@@ -1,0 +1,130 @@
+/* header styles */
+@import url("//cdn.web-fonts.ge/fonts/ka-lortkipanidze/css/ka-lortkipanidze.min.css");
+.header-wraper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    
+}
+nav ul {
+    display: flex;
+}
+ul li {
+    margin-right: 20px
+}
+.biuro a {
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', cursive;
+    text-transform: uppercase;
+}
+li a {
+    font-family: "KA_LORTKIPANIDZE", sans-serif;
+    font-size: 20px;
+}
+.burger-icon {
+    display: none;
+    font-size: 35px;
+    color: #001a4d;
+}
+/* section styles */
+body {
+    background-color: #FAFAFA;
+}
+section {  
+     padding: 80px 0;
+}
+.section-wraper {
+    max-width: 1170px;
+     width: 100%;
+     height: auto;
+     margin: 0 auto
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 65px;
+}
+.section-title h3 {
+    font-size: 30px;
+    font-family: "KA_LORTKIPANIDZE", sans-serif;
+    margin-bottom: 20px;
+}
+.wraper01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.icon {
+    width: 88px;
+    height: 88px;
+    background-color: #3939b3;
+    border-radius: 20px;
+    margin: 50px auto 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon img {
+    width: 50%;
+}
+.box {
+    max-width: 371px;
+    width: 100%;
+    height: 374px;
+    background-color: #FFFFFF;
+    border: 0.5px solid #CECECE;
+    border-radius: 10px;
+    opacity: 1;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;        
+
+}
+.box h3 {
+    margin-bottom:  40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "KA_LORTKIPANIDZE", sans-serif;
+}
+.box p {
+    text-align: center;
+    font-size: 15px;
+    font-family: "KA_LORTKIPANIDZE", sans-serif;
+    opacity: 0.5;
+    width: 330px;
+}
+.header-cont {
+    /* height: 60%; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 20px;
+    font-family: "KA_LORTKIPANIDZE", sans-serif;
+    font-weight: 700;
+}
+a, h3, p {
+    color: #001a4d;
+}
